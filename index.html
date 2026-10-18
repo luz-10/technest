@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="TechNest: aprende tecnología, comparte ideas y crece en comunidad.">
+  <title>TechNest | Aprende, comparte y crece</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#inicio"><span class="brand-icon">✧</span> TechNest</a>
+    <nav>
+      <a href="#inicio">Inicio</a><a href="#comunidad">Comunidad</a><a href="#cursos">Cursos</a><a href="#precios">Precios</a>
+    </nav>
+    <a class="button button-small" href="#precios">Únete ahora</a>
+  </header>
+
+  <main>
+    <section class="hero section" id="inicio">
+      <div class="hero-copy">
+        <span class="eyebrow">COMUNIDAD · APRENDIZAJE</span>
+        <h1>Tu lugar seguro<br>en el <span>mundo tech</span></h1>
+        <p>Aprende, comparte y crece junto a una comunidad de personas apasionadas por la tecnología. Encuentra cursos, recursos y personas que te inspiren.</p>
+        <div class="actions"><a class="button" href="#comunidad">Únete a la comunidad</a><a class="button button-light" href="#precios">Ver planes</a></div>
+        <div class="social-proof"><div class="avatars"><span>L</span><span>A</span><span>M</span><span>S</span></div><span>Una comunidad que aprende contigo</span><span class="stars">★★★★★</span></div>
+      </div>
+      <div class="hero-art">
+        <div class="glow"></div><div class="laptop"><div class="screen"><div class="screen-top"></div><div class="code-line wide"></div><div class="code-line"></div><div class="code-line short"></div><div class="code-line wide"></div><div class="code-line medium"></div><div class="code-line short"></div></div><div class="keyboard"></div></div>
+        <div class="floating-note">Code · Learn · Grow ♡</div>
+        <div class="plant">🌱</div>
+      </div>
+    </section>
+
+    <section class="section features">
+      <div class="section-heading"><span class="eyebrow">TODO EN UN SOLO LUGAR</span><h2>¿Qué encontrarás en TechNest?</h2></div>
+      <div class="feature-grid">
+        <article class="feature-card"><div class="feature-icon">⌘</div><h3>Cursos prácticos</h3><p>Aprende programación, inteligencia artificial y herramientas digitales a tu ritmo.</p></article>
+        <article class="feature-card"><div class="feature-icon">♡</div><h3>Comunidad activa</h3><p>Conecta con personas que comparten tus intereses, resuelve dudas y conoce gente nueva.</p></article>
+        <article class="feature-card"><div class="feature-icon">▤</div><h3>Recursos exclusivos</h3><p>Accede a guías, plantillas y materiales útiles para impulsar tus proyectos.</p></article>
+        <article class="feature-card"><div class="feature-icon">↗</div><h3>Retos y proyectos</h3><p>Pon en práctica lo que aprendes y comparte tus avances con la comunidad.</p></article>
+      </div>
+    </section>
+
+    <section class="section community-section" id="comunidad">
+      <div class="section-heading"><span class="eyebrow">PANTALLA 1 · COMUNIDAD</span><h2>Aprender es mejor en compañía.</h2><p>Comparte ideas y descubre lo que otras personas están creando.</p></div>
+      <div class="app-window">
+        <aside class="app-sidebar"><div class="brand"><span class="brand-icon">✧</span> TechNest</div><a class="selected" href="#comunidad">◉ Comunidad</a><a href="#cursos">▣ Cursos</a><a href="#chat">☏ Chat</a><a href="#recursos">▤ Recursos</a></aside>
+        <div class="app-main"><div class="app-top"><strong>¡Bienvenida a la comunidad!</strong><span class="pill">12 miembros en línea</span></div><div class="post-box"><strong>¿Qué quieres compartir hoy?</strong><p>Una idea, una duda o un proyecto en el que estás trabajando…</p><button class="button button-small" data-action="post">Crear publicación</button></div><article class="post"><div class="post-person"><span class="avatar purple">AM</span><div><strong>Ana Martínez</strong><small>Hace 20 minutos</small></div></div><p>¡Terminé mi primer proyecto con HTML y CSS! 💜 ¿Qué herramienta me recomiendan aprender después?</p><div class="post-actions"><button data-action="like">♡ Me gusta <span>12</span></button><button data-action="comment">Responder</button></div><div class="comment-area hidden"><input placeholder="Escribe una respuesta…"><button class="button button-small" data-action="send-comment">Enviar</button></div></article><article class="post"><div class="post-person"><span class="avatar peach">CL</span><div><strong>Carlos López</strong><small>Hace 1 hora</small></div></div><p>Encontré una herramienta de IA buenísima para organizar tareas. La compartiré en recursos para que todos la prueben.</p><div class="post-actions"><button data-action="like">♡ Me gusta <span>8</span></button><button data-action="comment">Responder</button></div><div class="comment-area hidden"><input placeholder="Escribe una respuesta…"><button class="button button-small" data-action="send-comment">Enviar</button></div></article></div>
+      </div>
+    </section>
+
+    <section class="section courses-section" id="cursos">
+      <div class="section-heading"><span class="eyebrow">PANTALLA 2 · CURSOS</span><h2>Tu próximo paso empieza aquí.</h2><p>Contenido práctico para avanzar desde cero.</p></div>
+      <div class="course-grid">
+        <article class="course-card"><div class="course-art lilac">⌨️</div><div class="course-content"><span class="tag">PRINCIPIANTE</span><h3>Introducción a la programación</h3><p>Conoce los conceptos básicos y crea tus primeros proyectos.</p><div class="progress"><span style="width:35%"></span></div><small>35% de ejemplo completado</small><button class="button button-small course-button" data-course="Introducción a la programación">Ver curso</button></div></article>
+        <article class="course-card"><div class="course-art mint">🤖</div><div class="course-content"><span class="tag">TENDENCIA</span><h3>Inteligencia artificial</h3><p>Aprende a usar herramientas de IA para estudiar y trabajar.</p><div class="progress"><span style="width:10%"></span></div><small>10% de ejemplo completado</small><button class="button button-small course-button" data-course="Inteligencia artificial">Ver curso</button></div></article>
+        <article class="course-card"><div class="course-art peach">🌐</div><div class="course-content"><span class="tag">PRÁCTICO</span><h3>Crea tu primera página web</h3><p>Descubre HTML y CSS para diseñar una web sencilla.</p><div class="progress"><span style="width:0%"></span></div><small>Empieza a aprender</small><button class="button button-small course-button" data-course="Crea tu primera página web">Ver curso</button></div></article>
+      </div>
+    </section>
+
+    <section class="section chat-section" id="chat">
+      <div class="section-heading"><span class="eyebrow">PANTALLA 3 · CHAT</span><h2>Las buenas ideas se comparten.</h2><p>Conversa con la comunidad y resuelve dudas en equipo.</p></div>
+      <div class="chat-window">
+        <div class="chat-header"><div class="brand"><span class="brand-icon">✧</span> Chat de TechNest</div><span class="pill">● Comunidad general</span></div>
+        <div class="messages" id="messages"><div class="message"><span class="avatar purple">SR</span><div><strong>Sofía R.</strong><p>¿Alguien ha probado herramientas de IA para estudiar?</p><small>10:32</small></div></div><div class="message own"><span class="avatar mint">LU</span><div><strong>Tú</strong><p>¡Sí! Me ayudan mucho a organizar mis ideas y hacer resúmenes.</p><small>10:34</small></div></div><div class="message"><span class="avatar peach">DL</span><div><strong>Diego L.</strong><p>También pueden servir para practicar programación. ✨</p><small>10:35</small></div></div></div>
+        <form class="chat-form" id="chatForm"><input id="chatInput" placeholder="Escribe un mensaje…" autocomplete="off"><button class="button" type="submit">Enviar ↗</button></form>
+      </div>
+    </section>
+
+    <section class="section join-banner" id="recursos"><div><span class="eyebrow">PARA TODOS LOS NIVELES</span><h2>Tu futuro digital<br>empieza con una idea.</h2><p>Aprende algo nuevo hoy y construye algo increíble mañana.</p><a class="button" href="#precios">Quiero unirme →</a></div><div class="banner-art">✦<span>⌘</span>✧</div></section>
+
+    <section class="section pricing" id="precios"><div class="section-heading"><span class="eyebrow">MEMBRESÍAS</span><h2>Un plan para cada etapa.</h2><p>Empieza gratis y desbloquea más cuando estés listo.</p></div>
+      <div class="pricing-grid">
+        <article class="price-card"><h3>Básico</h3><div class="price">$0 <small>/ mes</small></div><p>Para comenzar a explorar.</p><ul><li>Acceso a la comunidad</li><li>Publicaciones y chat</li><li>Recursos gratuitos</li></ul><a class="button button-light full" href="#comunidad">Crear cuenta</a></article>
+        <article class="price-card featured"><span class="popular">MÁS POPULAR</span><h3>Pro</h3><div class="price">$99 <small>MXN / mes</small></div><p>Para aprender y crecer.</p><ul><li>Todo lo del plan Básico</li><li>Guías y recursos exclusivos</li><li>Contenido premium</li><li>Nuevos materiales cada mes</li></ul><button class="button full" id="subscribeButton">Suscribirme con Stripe</button><small class="payment-note" id="paymentNote">El pago se habilita al conectar Stripe.</small></article>
+        <article class="price-card"><h3>Equipo</h3><div class="price">$249 <small>MXN / mes</small></div><p>Para pequeños equipos.</p><ul><li>Beneficios del plan Pro</li><li>Recursos para colaborar</li><li>Espacio para proyectos</li></ul><a class="button button-light full" href="mailto:hola@technest.example?subject=Plan%20Equipo">Solicitar información</a></article>
+      </div>
+      <p class="disclaimer">Proyecto escolar demostrativo. Los cursos, miembros y porcentajes son ejemplos. No se procesan pagos hasta configurar una integración real de Stripe.</p>
+    </section>
+  </main>
+  <footer><a class="brand" href="#inicio"><span class="brand-icon">✧</span> TechNest</a><span>Aprende · Comparte · Crece</span><span>© 2026 TechNest · Proyecto escolar</span></footer>
+  <div class="toast" id="toast" role="status"></div>
+  <script src="script.js"></script>
+</body>
+</html>
